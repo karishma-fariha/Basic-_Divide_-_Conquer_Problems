@@ -31,7 +31,8 @@ int main()
 {
     vector<int>arr= {12,31,35,8,32,17};
     quickSort(arr,0,arr.size()-1);
-    for(int val: arr){
+    for(int val: arr)
+    {
         cout <<val<<" ";
     }
     cout<< endl;
